@@ -1,0 +1,12 @@
+.login_container {
+    max-width: 350px;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+}
+
+.login_container img{
+    width: 150px;
+}

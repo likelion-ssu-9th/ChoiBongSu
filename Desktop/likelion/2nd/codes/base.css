@@ -1,0 +1,28 @@
+header {
+    max-width: 1000px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    margin: auto;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+header img {
+    height: 25px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.left_box {
+    display: flex;
+}
+
+.right_box {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+hr {
+    border-top: 1px solid #E2E2E2;
+}
