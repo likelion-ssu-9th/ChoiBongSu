@@ -1,0 +1,64 @@
+.signUp_container {
+    max-width: 250px;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+    padding: 50px;
+    border: 1px solid #bbb;
+    margin-top: 100px;
+}
+
+.signUp_container img{
+    width: 150px;
+    margin: auto;
+    padding-bottom: 30px;
+    font-weight: 50;
+}
+
+hr {
+    width: 250px;
+    border-top: 1px solid #bbb;
+    margin-bottom: 50px;
+}
+
+.signUp_container h2{
+    text-align: center;
+    font-size: 18px;
+    color: gray;
+}
+
+.signUp_container input{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding: 8px;
+    border: 1px solid silver;
+    background-color: #E2E2E2;
+    opacity: 60%;
+}
+
+.signUp_container button {
+    margin-top: 20px;
+    background-color: #0095f6;
+    color: white;
+    opacity: 50%;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border: 0;
+}
+
+.joinInsta {
+    background-color: white;
+    border: 1px solid silver;
+    max-width: 350px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.join button {
+    background-color: white;
+    border: none;
+    color: #0095f6;
+}
