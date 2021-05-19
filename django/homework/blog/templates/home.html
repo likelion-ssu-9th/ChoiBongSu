@@ -1,21 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+
     <div>
         { % for i in blogs % }
         <h1>제목 : {{i.title}}</h1>
         <br>
         <h4>날짜 : {{i.pub_data}}</h4>
         <br>
-        <h4>본문 : {{i.Summary}}<a href="{% url 'detail' i.id %}">...more</a></h4>
         { % endfor % }
     </div>
 
-</body>
-</html>
